@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Контакты - Prutend Law Group</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">Prutend Law Group</div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="about.html">О компании</a></li>
+                <li><a href="services.html">Услуги</a></li>
+                <li><a href="portfolio.html">Кейсы</a></li>
+                <li><a href="reviews.html">Отзывы</a></li>
+                <li><a href="contact.html">Контакты</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="contact">
+        <h1>Контакты</h1>
+        <p>Свяжитесь с нами для получения консультации:</p>
+        <ul>
+            <li>Телефон: 8 905 544 89 74</li>
+            <li>Email: lawyerart2020@gmail.com</li>
+        </ul>
+        <form action="submit_form.php" method="post">
+            <label for="name">Ваше имя:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Ваш email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Сообщение:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+            <button type="submit">Отправить</button>
+        </form>
+    </section>
+    <footer>
+        <p>Контакты: lawyerart2020@gmail.com | 8 905 544 89 74</p>
+    </footer>
+</body>
+</html>
